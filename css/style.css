@@ -75,13 +75,9 @@ nav a:hover{
     display: flex;
 }
 
-.Card{
-    
-}
-
 .video-container {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 5px;
     
 }
@@ -100,7 +96,7 @@ nav a:hover{
 @media (max-width: 768px) {
     .video-container {
         flex-direction: column;
-        align-items: left;
+        align-items: center;
     }
     .profilesideinfo{
         display: flex;
