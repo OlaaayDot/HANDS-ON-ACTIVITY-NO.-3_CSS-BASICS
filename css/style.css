@@ -1,0 +1,55 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+    text-align: center;
+    background-color: rgb(92,127,113);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+nav a{
+    color: white;
+    background-color: rgb(82,142,166);
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-family: 'Roboto',;
+
+    padding: 5px;
+}
+nav a:hover{
+    background-color: rgb(170,192,173);
+}
+
+.profilesideinfo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profilesideinfo img{
+    width: 200px;
+    height: auto;
+    border: 5px solid rgb(82,142,166);
+    border-radius: 20px;
+}
+
+.textbox h3, p{
+    margin: 5px;
+}
+
+.column{
+    flex: 50%;
+}
+
+.row{
+    display: flex;
+}
+
+.Card{
+    background-color: black;
+}
+
