@@ -79,3 +79,31 @@ nav a:hover{
     
 }
 
+.video-container {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    
+}
+
+.video-item {
+    flex: 1;
+    max-width: 200px;
+}
+
+.video-item iframe {
+    width: 50%;
+    height: auto;
+    
+}
+
+@media (max-width: 768px) {
+    .video-container {
+        flex-direction: column;
+        align-items: left;
+    }
+    .profilesideinfo{
+        display: flex;
+        align-items: center;
+    }
+}
