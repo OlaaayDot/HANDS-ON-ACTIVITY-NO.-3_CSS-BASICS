@@ -1,6 +1,24 @@
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid;
+    border-radius: 10px
+    
+    
 }
+
+.Main_Page{
+    background-color: rgb(170,192,173);
+}
+
+.Main_content{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 
 header{
     text-align: center;
@@ -8,6 +26,7 @@ header{
     padding: 20px;
     color: white;
     border-radius: 10px;
+    
 }
 
 nav a{
@@ -28,6 +47,7 @@ nav a:hover{
     display: flex;
     align-items: center;
     gap: 15px;
+
 }
 
 .profilesideinfo img{
@@ -35,14 +55,20 @@ nav a:hover{
     height: auto;
     border: 5px solid rgb(82,142,166);
     border-radius: 20px;
+    
 }
 
 .textbox h3, p{
     margin: 5px;
+    
+}
+.textPadding{
+    padding-bottom: 10px;
 }
 
 .column{
     flex: 50%;
+    
 }
 
 .row{
@@ -50,6 +76,6 @@ nav a:hover{
 }
 
 .Card{
-    background-color: black;
+    
 }
 
